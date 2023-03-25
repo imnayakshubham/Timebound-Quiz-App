@@ -1,0 +1,38 @@
+.start__quiz__popover__container {
+    padding: 1rem;
+}
+
+.quiz__popover__info__container {
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+}
+
+.quiz__popover__info__container,
+.quiz__popover_info__item,
+.popover__header {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+@media (max-width:500px) {
+    .quiz__popover__info__container {
+        padding-top: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+
+    }
+
+    .quiz__popover_info__item {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .quiz__popover_info__item:last-child {
+        display: flex;
+        justify-content: center;
+    }
+
+}

@@ -1,0 +1,29 @@
+.header>p {
+    margin: 0;
+
+}
+
+.logo-heading>h2,
+.logo-heading>p {
+    row-gap: 0;
+    gap: 0;
+    margin: 0px;
+}
+
+.logo-subtitle {
+    margin: 0;
+}
+
+.header {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 0 2px 0 rgb(110, 110, 110);
+    width: 100vw;
+}
+
+.header h2 {
+    color: #5f6368;
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin: 0px;
+}

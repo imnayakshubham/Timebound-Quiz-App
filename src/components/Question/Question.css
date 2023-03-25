@@ -1,0 +1,50 @@
+.option {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.selected__option {
+    border: 1px solid #2fff00;
+}
+
+.question__actions {
+    display: flex;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.question__options {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    flex: 1 1;
+    align-items: center
+}
+
+
+.option {
+    text-align: left;
+    width: 47%;
+    height: 50px;
+    padding: 1rem;
+}
+
+
+.question__details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.next__question_btn,
+.submit__question_btn {
+    float: right;
+}

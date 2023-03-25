@@ -1,0 +1,23 @@
+.question__actions {
+    justify-content: flex-end;
+    margin-right: 2rem;
+
+}
+
+@media (max-width:500px) {
+    .question__actions {
+        justify-content: center;
+        margin-right: 0;
+
+    }
+
+    .question {
+        height: 90vh;
+        justify-content: space-between;
+    }
+
+    .option {
+        width: 100%;
+    }
+
+}

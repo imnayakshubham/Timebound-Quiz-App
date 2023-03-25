@@ -1,0 +1,154 @@
+.homepage {
+    width: 1356px;
+    max-width: 80%;
+    margin: 0px auto;
+    padding: 64px 0px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner__right {
+    display: flex;
+    justify-content: flex-end;
+    /* width: 70%; */
+}
+
+.banner__content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.banner__title {
+    font-weight: 300;
+    font-family: 'Rubik', sans-serif !important;
+    font-style: normal;
+    font-size: 2rem;
+    line-height: 120%;
+}
+
+.banner__subtitle {
+    color: #888888;
+    font-weight: 100;
+
+}
+
+.banner__image {
+    /* width: 32rem; */
+    height: 12rem;
+    object-fit: contain;
+}
+
+.quiz__home__page__info {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.quiz__info__btn {
+    padding: 0rem;
+    color: #000;
+}
+
+.quiz__stats {
+    display: flex;
+    gap: 1.4rem;
+}
+
+.quiz__home__page__info__left,
+.quiz__home__page__info__right {
+    padding: 1rem;
+}
+
+.quiz__home__page__info__enrollment,
+.quiz__home__page__info__rating {
+    display: flex;
+    gap: 0.25rem;
+    flex-direction: column;
+}
+
+.quiz__info {
+    width: 50%;
+}
+
+.quiz__info__item {
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+
+.quiz__home__page__details {
+    padding: 1rem;
+}
+
+.hide__actions {
+    display: none !important;
+}
+
+@media (max-width:800px) {
+
+    .quiz__home__page__info__left,
+    .quiz__home__page__info__right {
+        padding: 0rem;
+    }
+
+    .homepage {
+        max-width: 90%;
+        padding: 10px 0px !important;
+    }
+
+    .banner__actions {
+        position: fixed;
+        background-color: #fff;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        left: 0;
+        height: 10vh;
+        border: 1px solid #ccc;
+        border-radius: 1rem 1rem 0% 0%;
+    }
+
+    .quiz__home__page__info {
+        flex-direction: column-reverse;
+    }
+
+    .quiz__stats {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .quiz__info {
+        width: 100%;
+
+    }
+}
+
+@media (max-width:450px) {
+    .homepage {
+        max-width: 95%;
+        padding: 7.5px !important;
+    }
+
+    .quiz__home__page__details,
+    .banner {
+        padding: 0.5rem;
+    }
+
+    .quiz__stats {
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width:380px) {
+    .homepage {
+        height: 105vh;
+    }
+}

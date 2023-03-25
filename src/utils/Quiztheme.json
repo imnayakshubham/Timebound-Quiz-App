@@ -1,0 +1,9 @@
+{
+  "token": {
+    "borderRadius": 16,
+    "wireframe": false,
+    "fontSize": 14,
+    "colorPrimary": "rgb(103, 63, 215)",
+    "colorPrimaryBg": "#f6f0ff"
+  }
+}
